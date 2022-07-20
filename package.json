@@ -1,0 +1,28 @@
+{
+  "name": "newsapi",
+  "version": "1.0.0",
+  "description": "npm i\r <br>\r npm start",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrajwalDhoble/newsAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrajwalDhoble/newsAPI/issues"
+  },
+  "homepage": "https://github.com/PrajwalDhoble/newsAPI#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5",
+    "nodemon": "^2.0.19",
+    "validator": "^13.7.0"
+  }
+}
